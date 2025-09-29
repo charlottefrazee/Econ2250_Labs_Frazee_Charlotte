@@ -54,6 +54,9 @@ pacman::p_load(
   RColorBrewer,
   curl,
   usethis)
+# install.packages("beeswarm")
+library(beeswarm)
+
 ```
 
 # Exercise 1: Creating your Own GitHub Repository
@@ -104,6 +107,10 @@ Now, we are going to learn how to collaborate using GitHub. Follow these steps:
 3.  Now we can try several command in the Terminal: `git status`, `git commit`, `git push`, `git fetch`, and `git push`. See [here](https://rviews.rstudio.com/2020/04/23/10-commands-to-get-started-with-git/) if you want to know more than this. Now, let's try to type something below in your collaborators repository, then commmit, and push it. Check your repo as well.
 
 Type line below here:
+
+Gisellas-MacBook-Air:Econ2250_Labs_Frazee_Charlotte gisella\$ git status On branch master Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 
 **To complete these exercise, you have to have at least one contributions from your teammates in your repository.**
 
@@ -396,6 +403,7 @@ There is website that host a collection of beautiful charts you might want to vi
 
 ```{r, echo=T, eval=T}
 #| label: r graph gallery replication 1
+beeswarm(cps$earnwk)
 
 ```
 
@@ -403,6 +411,7 @@ There is website that host a collection of beautiful charts you might want to vi
 
 ```{r, echo=T, eval=T}
 #| label: r graph gallery replication 2
+pie(earnwk_black)
 
 ```
 
@@ -439,7 +448,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:-------------------------------------------------------------------|:-------|
+|:---------------------------------------------------------|:-------------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
