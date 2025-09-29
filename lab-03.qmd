@@ -84,7 +84,7 @@ gitcreds::gitcreds_set()
 
 6.  Create your GitHub repository \AddToHookNext{env/Highlighting/begin}{\small}
 
-```{r, echo=T, eval=F}
+```{r eval=F, echo=T}
 #| label: create github repo
 usethis::use_github()
 ```
@@ -439,7 +439,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:-------------------------------------------------------------------|:-------|
+|:------------------------------------------------------|:----------------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
