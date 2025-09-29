@@ -54,6 +54,10 @@ pacman::p_load(
   RColorBrewer,
   curl,
   usethis)
+# install.packages("beeswarm")
+library(beeswarm)
+
+
 ```
 
 # Exercise 1: Creating your Own GitHub Repository
@@ -396,10 +400,11 @@ There is website that host a collection of beautiful charts you might want to vi
 
 ```{r, echo=T, eval=T}
 #| label: r graph gallery replication 1
+#| beeswarm(cps$earnwk)
 
 ```
 
-*Visualization replication 2* \AddToHookNext{env/Highlighting/begin}{\small}
+*Visualization replication 2* \AddToHookNext{env/Highlibbghting/begin}{\small}
 
 ```{r, echo=T, eval=T}
 #| label: r graph gallery replication 2
@@ -439,7 +444,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:------------------------------------------------------|:----------------|
+|:-------------------------------------------------------------------|:-------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
