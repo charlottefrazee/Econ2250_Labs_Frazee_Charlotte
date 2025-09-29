@@ -108,9 +108,7 @@ Now, we are going to learn how to collaborate using GitHub. Follow these steps:
 
 Type line below here:
 
-Gisellas-MacBook-Air:Econ2250_Labs_Frazee_Charlotte gisella\$ git status On branch master Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
+Gisella was here :)
 
 **To complete these exercise, you have to have at least one contributions from your teammates in your repository.**
 
